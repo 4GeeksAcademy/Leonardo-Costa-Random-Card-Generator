@@ -49,3 +49,6 @@ function generateCard() {
   cardImage.src = randomCard;
   cardContainer.appendChild(cardImage);
 }
+
+var newBackGround = document.querySelector("body");
+newBackGround.style.backgroundColor = "green";
